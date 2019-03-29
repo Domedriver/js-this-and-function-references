@@ -12,6 +12,7 @@ class NameGenerator {
         const btn = document.querySelector('button');
         this.names = ['Max', 'Manu', 'Anna'];
         this.currentName = 0;
+        console.log('firt this is: ', this)
         btn.addEventListener('click', () => {
             this.addName();
         });
